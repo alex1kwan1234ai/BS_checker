@@ -22,7 +22,7 @@ if not pinecone_api_key:
 
 # 初始化雙端 Client
 client = genai.Client(api_key=gemini_api_key)
-pc = Pinecone(gemini_api_key=pinecone_api_key)
+pc = Pinecone(api_key=pinecone_api_key)
 index = pc.Index("spec") # 連接你網頁上的 spec index
 
 # 定義系統指令
