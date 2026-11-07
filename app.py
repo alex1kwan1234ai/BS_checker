@@ -3,7 +3,7 @@ import streamlit as st
 from google import genai
 from pinecone import Pinecone
 
-# 設定介面預設收起側邊欄，讓主畫面更寬敞
+# 設定介面預設收起側邊欄，讓主畫面更寬敞1
 st.set_page_config(page_title="屋宇裝備多功能智能審查員", layout="centered", initial_sidebar_state="collapsed")
 st.title("屋宇裝備文件智能審查員")
 st.caption("🚀 雲端向量數據庫")
